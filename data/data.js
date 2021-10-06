@@ -18,6 +18,6 @@ export const data = [
         choices: [
             'angular',
             'reactjs'],
-        answer: 1
+        answer: 0
     }
 ]

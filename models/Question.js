@@ -18,7 +18,8 @@ class Question{
      * @returns {boolean} return true if the choice is correct
      */
     isCorrect(choice){
-        return this.answer === choice;
+        console.log('log - vs ', choice, this.answer);
+        return this.choices[this.answer] === choice;
     }
 }
 
